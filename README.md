@@ -70,7 +70,7 @@ pip install discord.py
 
 ## Konfiguration
 
-Im Skript `message_link_generator.py` eintragen:
+Im Skript `linkscraper.py` eintragen:
 
 ```python
 TOKEN = "DEIN_BOT_TOKEN"  # Bot Token
@@ -91,7 +91,7 @@ https://discord.com/channels/<GuildID>/<ChannelID>/<MessageID>
 Bot starten:
 
 ```bash
-python3 message_link_generator.py
+python3 linkscraper.py
 ```
 
 * Der Bot liest alle Nachrichten aus den angegebenen Channels.
