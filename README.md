@@ -63,7 +63,7 @@ pip install discord.py
 3. **Bot auf deinen Server einladen**:
 
    * OAuth2 → URL Generator → Scope: `bot`
-   * Berechtigungen: `Read Messages/View Channels`, `Read Message History`
+   * Berechtigungen: `Read Messages/View Channels`, `Read Message History` ´Privileged Gateway Intents - Message Content Intent´
    * URL öffnen → Server auswählen → Autorisieren
 
 ---
